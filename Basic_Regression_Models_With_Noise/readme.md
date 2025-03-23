@@ -1,7 +1,8 @@
-# **Polynomial Regression with Noise - Project (Updated Version)**
+# **Polynomial Regression with Noise**
 
 ## 📌**Overview**
-This project involves generating data using a fourth-degree polynomial function with added noise. The goal is to perform regression analysis to fit a model to the generated data. The data is saved in a CSV file and also visualized on a scatter plot, which allows for the evaluation of how well the model fits the data.
+This project generates data with added noise and applies various regression models. The data is visualized on a scatter plot to evaluate model performance.
+This project **helps understand the impact of noise on model accuracy and the importance of selecting appropriate regression techniques.**
 
 ## 🔍**Analysis**
 - **Input Data**: 300 samples of the independent variable \( x \) in the range from -2.5 to 2.5.
