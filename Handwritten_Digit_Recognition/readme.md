@@ -47,5 +47,5 @@ To run this project locally, follow these steps:
 - **Confusion matrix** helped visualize classification accuracy and misclassified digits.
 - **SGD classifier** is a fast, scalable method suitable for large-scale machine learning problems.
 
-## 📌 Why This Project?
+## 📒 Why This Project?
 This project demonstrates **essential data preprocessing techniques** and highlights **the importance of proper dataset splitting in machine learning**. It showcases fundamental ML concepts that are crucial for **data analysts and ML practitioners**.
