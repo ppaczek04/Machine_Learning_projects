@@ -17,7 +17,7 @@ This project is a machine learning experiment focused on handwritten digit recog
 ## 📂 Project Structure
 - handwritten_digit_recognition.ipynb  -->  Jupyter Notebook with code & analysis 
 - handwritten_digit_recognition.py     -->  Python file with code & analysis   
-- README.md                            -->  Project description  
+- readme.md                            -->  Project description  
 - requirements.txt                     -->  Dependencies (if applicable)
 
 ## 🛠️ Installation & Setup
