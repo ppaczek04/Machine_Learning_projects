@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
     ```bash
    git clone https://github.com/ppaczek04/Machine_Learning_projects.git
-   cd handwritten_digit_recognition
+   cd Handwritten_Digit_Recognition
     ```
 
 2. Install dependencies:
