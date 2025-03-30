@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
     ```bash
    git clone https://github.com/ppaczek04/Machine_Learning_projects.git
-   cd Breast Cancer Classification with SVM models
+   cd Breast_Cancer_Classification_with_SVM_models
     ```
 
 2. Install dependencies:
@@ -55,17 +55,22 @@ To run this project locally, follow these steps:
 ## 📊 Results  
 
 ### ✅ Breast Cancer Classification:
+This measuremnats are just illustrative results and might differ slightly:
 - Without feature scaling:  
-  - Training Accuracy: ~83%  
-  - Testing Accuracy: ~81%
+  - Training Accuracy: ~62%  
+  - Testing Accuracy: ~68%
 - With feature scaling:  
   - Training Accuracy: ~90%  
   - Testing Accuracy: ~90%
 - ➤ **Conclusion**: Feature scaling significantly improves model performance for SVM classifiers.
 
 ### 🌸 Iris Virginica Classification (Bonus):
-- Accuracy without scaling: ~98%  
-- Accuracy with scaling: ~95%  
+- Without feature scaling:  
+  - Training Accuracy: ~96%  
+  - Testing Accuracy: ~100%
+- With feature scaling:  
+  - Training Accuracy: ~95%  
+  - Testing Accuracy: ~95% 
 - ➤ Note: Scaling slightly reduced accuracy, likely due to features already being on similar scales.
 
 ### 📈 Polynomial Regression with SVR (Bonus):
@@ -75,5 +80,3 @@ To run this project locally, follow these steps:
 ## 💡 Why This Project  
 Breast cancer remains one of the most common and life-threatening forms of cancer among women worldwide. Early and accurate detection significantly improves the chances of effective treatment and survival. This project demonstrates how **machine learning** — specifically **Support Vector Machines (SVM)** — can be applied to real-world medical data to aid in **automatic classification of tumors as malignant or benign**.  
 By leveraging SVM models, we can support doctors and radiologists in making more informed decisions and reduce diagnostic errors.  
-
-In addition, this project showcases the **power of preprocessing techniques like feature scaling** and the impact of **hyperparameter tuning**, which are essential for building robust machine learning solutions in medical diagnostics and beyond.
