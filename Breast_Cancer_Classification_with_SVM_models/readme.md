@@ -55,7 +55,7 @@ To run this project locally, follow these steps:
 ## 📊 Results  
 
 ### ✅ Breast Cancer Classification:
-This measuremnats are just illustrative results and might differ slightly:
+This measurements are just illustrative results and might differ slightly:
 - Without feature scaling:  
   - Training Accuracy: ~62%  
   - Testing Accuracy: ~68%
