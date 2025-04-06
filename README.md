@@ -13,3 +13,6 @@ This project **helps understand the impact of noise on model accuracy and the im
 ## 3. Breast Cancer Classification with SVM models
 
 This project demonstrates the application of **Support Vector Machine (SVM)** models for both classification and regression using real-world and synthetic datasets. It uses the `scikit-learn` library to train, evaluate, and visualize model performance under various preprocessing conditions, including feature scaling and hyperparameter tuning.
+
+## 4. Decision Tree Classification and Regression
+This project explores the use of **Decision Trees** for both classification and regression tasks. Decision Trees are easy to use and adapt well to data, making them an attractive choice for many machine learning problems. However, they are **prone to overfitting** — especially when the model becomes too complex. To address this, we regularize the model by tuning hyperparameters such as `max_depth` to ensure that the tree generalizes well on new, unseen data. 
