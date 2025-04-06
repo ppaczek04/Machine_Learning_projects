@@ -21,7 +21,7 @@ This project explores the use of **Decision Trees** for both classification and 
 - decision_tree_classification_and_regression.py     -->  Python file with code & analysis   
 - readme.md                            -->  Project description  
 - requirements.txt                     -->  Dependencies (if applicable)
-- other files contain pngs of visualisations, data generatd in the script
+- other files contain pngs of visualisations and data generated in the script
 ## 🛠️ Installation & Setup
 To run this project locally, follow these steps:
 
