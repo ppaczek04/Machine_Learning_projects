@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 
 3. Run Jupyter Notebook:
     ```
-    jupytet notebook ensemble_learning_and_random_forests.ipynb
+    jupyter notebook ensemble_learning_and_random_forests.ipynb
     ```
 
 4. Jupyter Notebooks or additional analysis can be run in an interactive environment if preferred.

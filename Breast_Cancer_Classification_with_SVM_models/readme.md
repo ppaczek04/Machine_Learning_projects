@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 
 3. Run Jupyter Notebook:
     ```
-    jupytet notebook breast_cancer_classification_with_SVM_models.ipynb
+    jupyter notebook breast_cancer_classification_with_SVM_models.ipynb
     ```
 
 ## 📊 Results  
