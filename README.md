@@ -16,3 +16,6 @@ This project demonstrates the application of **Support Vector Machine (SVM)** mo
 
 ## 4. Decision Tree Classification and Regression
 This project explores the use of **Decision Trees** for both classification and regression tasks. Decision Trees are easy to use and adapt well to data, making them an attractive choice for many machine learning problems. However, they are **prone to overfitting** — especially when the model becomes too complex. To address this, we regularize the model by tuning hyperparameters such as `max_depth` to ensure that the tree generalizes well on new, unseen data. 
+
+## 5. Ensamble Learning and Random Forests - Democracy in ML
+This project is a machine learning experiment focused on **ensemble learning** methods, particularly **Bagging**, **Random Forests**, and **Boosting**. The primary goal is to classify samples into different categories using various ensemble techniques, demonstrating how combining multiple weak models can lead to stronger and more reliable predictions compared to individual models.
