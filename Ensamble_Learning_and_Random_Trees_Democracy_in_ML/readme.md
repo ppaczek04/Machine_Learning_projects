@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
     ```bash
    git clone https://github.com/ppaczek04/Machine_Learning_projects.git
-   cd Decision_Tree_Classification_and_Regression
+   cd Ensamble_Learning_and_Random_Trees_Democracy_in_ML
     ```
 
 2. Install dependencies:
@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 
 3. Run Jupyter Notebook:
     ```
-    jupytet notebook ensemble learning_and_random_forests.ipynb
+    jupytet notebook ensemble_learning_and_random_forests.ipynb
     ```
 
 4. Jupyter Notebooks or additional analysis can be run in an interactive environment if preferred.
