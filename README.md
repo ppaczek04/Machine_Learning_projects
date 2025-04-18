@@ -19,3 +19,6 @@ This project explores the use of **Decision Trees** for both classification and 
 
 ## 5. Ensamble Learning and Random Forests - Democracy in ML
 This project is a machine learning experiment focused on **ensemble learning** methods, particularly **Bagging**, **Random Forests**, and **Boosting**. The primary goal is to classify samples into different categories using various ensemble techniques, demonstrating how combining multiple weak models can lead to stronger and more reliable predictions compared to individual models.
+
+## 6. Unsupervised Learning K-Means and DBscan (NOT FINISHED)
+This project explores unsupervised learning by applying **K-Means** and **DBSCAN** clustering algorithms to the **MNIST** dataset of handwritten digits.  The goal is to evaluate how well these algorithms can group digit images without using any labels and to experiment with clustering metrics such as **silhouette score** and **confusion matrix**.
