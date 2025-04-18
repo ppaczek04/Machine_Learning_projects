@@ -4,8 +4,6 @@
 This project explores unsupervised learning by applying **K-Means** and **DBSCAN** clustering algorithms to the **MNIST** dataset of handwritten digits.  
 The goal is to evaluate how well these algorithms can group digit images without using any labels and to experiment with clustering metrics such as **silhouette score** and **confusion matrix**.
 
-This project demonstrates how unsupervised models can uncover hidden patterns in high-dimensional image data.
-
 ## 🔍 Key Features
 - **Dataset**: The MNIST dataset with 70,000 handwritten digits (we use a subset for performance).
 - **Dimensionality Reduction**: Uses **PCA** to reduce 784-dimensional data to 2D for visualization.
@@ -30,7 +28,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ppaczek04/Unsupervised_Learning_Kmeans_and_DBscan.git
+   git clone https://github.com/ppaczek04/Machine_Learning_projects.git
    cd Unsupervised_Learning_Kmeans_and_DBscan
    ```
 

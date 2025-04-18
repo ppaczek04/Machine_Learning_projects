@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-   git clone https://github.com/yourusername/Decision_Tree_Project.git
+   git clone https://github.com/ppaczek04/Machine_Learning_projects.git
    cd Decision_Tree_Classification_and_Regression
     ```
 
