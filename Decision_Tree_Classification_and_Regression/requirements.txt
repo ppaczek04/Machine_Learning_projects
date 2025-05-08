@@ -1,2 +1,5 @@
-symbol startowy (program), czy na wyższym poziomie można używać breaka. jakie to ma znaczenie/jak to działa. to jest intrrpteter 2+1.
-czy chcemy po wpisaniu 2+1, aby wyświetliła się liczba 3, czy coś innego ??(idk)
+python>=3.11
+scikit-learn==1.5.0
+numpy==1.26.0
+pandas==2.2.2
+matplotlib==3.9.0

@@ -45,3 +45,16 @@ To run this project locally:
    ```bash
    jupyter notebook data_dimensionality_reduction_with_PCA.ipynb
    ```
+
+## 📊 Results & Insights
+
+- PCA successfully reduced dimensionality while retaining **≥90% of the original variance** in both datasets.
+- Applying `StandardScaler` before PCA was essential — it ensured fair treatment of all features and improved the quality of the reduction.
+- The analysis revealed which original features had the greatest influence on the principal components.
+- Exporting the explained variance and ranked feature indices provides a foundation for further model optimization and interpretation.
+- Overall, the reduced datasets are smaller, faster to process, and easier to visualize without losing essential information.
+
+## 📒 Why This Project?
+
+This project provides a hands-on application of **Principal Component Analysis (PCA)** for dimensionality reduction.  
+It focuses on practical steps: scaling, fitting, interpreting, and ranking features — key skills in real-world machine learning workflows.
