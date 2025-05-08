@@ -22,3 +22,7 @@ This project is a machine learning experiment focused on **ensemble learning** m
 
 ## 6. Unsupervised Learning K-Means and DBscan (NOT FINISHED)
 This project explores unsupervised learning by applying **K-Means** and **DBSCAN** clustering algorithms to the **MNIST** dataset of handwritten digits.  The goal is to evaluate how well these algorithms can group digit images without using any labels and to experiment with clustering metrics such as **silhouette score** and **confusion matrix**.
+
+## 7. Data Dimensionalioty Reduction with PCA
+This project demonstrates how to reduce the dimensionality of datasets using **Principal Component Analysis (PCA)**.  
+We apply PCA to the **breast cancer** and **iris** datasets from scikit-learn, aiming to preserve at least **90% of the original data variance** while minimizing the number of features.
