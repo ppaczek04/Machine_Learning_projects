@@ -254,7 +254,7 @@ plt.imshow(image[0], cmap="binary")
 plt.axis('off')
 plt.show()
 
-"""## 3. Data regression - iris dataset
+"""## 3. Data regression - housing dataset
 
 ### Logging Directory Setup for TensorBoard
 

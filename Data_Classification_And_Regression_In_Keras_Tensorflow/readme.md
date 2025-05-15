@@ -1,37 +1,66 @@
-# Breast Cancer Classification with SVM models
+# 🧠 Image Classification & Regression with Neural Networks in Keras
 
-## 📌 Overview  
-This project demonstrates the application of **Support Vector Machine (SVM)** models for both classification and regression using real-world and synthetic datasets. It uses the `scikit-learn` library to train, evaluate, and visualize model performance under various preprocessing conditions, including feature scaling and hyperparameter tuning.
+## 📌 Overview
+This project demonstrates how to apply **neural networks using Keras and TensorFlow** to two key machine learning tasks:
 
-## 🧭 Introduction  
-The project is divided into three main parts:
+1. **Image Classification** – using the Fashion MNIST dataset.
+2. **Regression** – predicting California housing prices based on multiple input features.
 
-1. **Breast Cancer Classification** – the core component of this project, where a linear SVM model is trained to distinguish between malignant and benign tumors.
-2. **Iris Species Classification** – BONUS: binary classification task that determines whether a flower belongs to the *Iris Virginica* species.
-3. **SVM-based Regression** – BONUS: section where both `LinearSVR` and `SVR` are used to perform polynomial regression on synthetically generated data.
+The models are trained and evaluated using the `Sequential` API in Keras, and their performance is visualized using **TensorBoard**. We also explore how different model architectures impact training outcomes.
 
-Each section highlights different aspects of SVM models — from linear classification and feature scaling to model complexity and hyperparameter tuning.
+---
 
-## 🔍 Key Features  
-- **Classification with LinearSVC**:
-  - Predicting **malignant vs. benign tumors** using selected features from the Breast Cancer dataset.
-  - Recognizing **Iris Virginica** species vs. other species using petal dimensions.
-- **Feature Scaling Impact**:
-  - Comparison of model accuracy **with and without** feature normalization.
-- **Regression with SVR**:
-  - Fitting a 4th-degree polynomial using `LinearSVR` with polynomial features.
-  - Comparing performance with standard `SVR` using a polynomial kernel.
-- **Visualization**:
-  - Plotting **decision boundaries** for classification tasks.
-  - Plotting **regression curves** for SVR models.
-- **Hyperparameter Tuning**:
-  - Using `GridSearchCV` to improve regression accuracy through optimal `C` and `coef0` selection.
+## 🧭 Project Structure
 
-## 📂 Project Structure  
-- breast_cancer_classification_with_SVM_models.ipynb  -->  Jupyter Notebook with code & analysis 
-- breast_cancer_classification_with_SVM_models.py     -->  Python file with code & analysis   
-- readme.md                            -->  Project description  
-- requirements.txt                     -->  Dependencies (if applicable)
+1. **Image Classification** (Fashion MNIST):
+   - Normalize image data to `[0, 1]`
+   - Build a 3-layer dense neural network
+   - Train and validate with `TensorBoard` logging
+   - Save trained model to `fashion_clf.keras`
+
+2. **Regression Task** (California Housing Dataset):
+   - Load and split data into training, validation, and test sets
+   - Normalize features using a `Normalization` layer
+   - Train multiple models with different architectures:
+     - 100/50/20
+     - 20/50/100
+     - 50/50/50
+   - Use `EarlyStopping` to prevent overfitting
+   - Visualize training in TensorBoard
+   - Save models as `reg_housing_1.keras`, `reg_housing_2.keras`, etc.
+
+---
+
+## 🔍 Key Features
+
+- **Fashion MNIST Classification**
+  - Multi-class classification (10 categories)
+  - Uses ReLU and Softmax activations
+  - Visual inspection of predictions and labels
+
+- **California Housing Regression**
+  - Mean Squared Error and Root Mean Squared Error as loss/metric
+  - Normalization layer to improve convergence
+  - TensorBoard logging for every model run
+  - EarlyStopping to prevent unnecessary training
+
+- **TensorBoard Support**
+  - Real-time logging of loss and metrics
+  - Easy comparison of different architectures
+
+- **Model Saving**
+  - All models saved in `.keras` format for easy reuse or deployment
+
+---
+
+## 📂 File Summary
+
+- data_classification_and_regression_in_Keras_Tensorflow.ipynb  -->  Jupyter Notebook with code & analysis 
+- data_classification_and_regression_in_Keras_Tensorflow.py     -->  Python file with code & analysis
+- requirements.txt – Python dependencies
+- README.md – project overview and usage guide
+
+---
 
 ## 🛠️ Installation & Setup  
 To run this project locally, follow these steps:
@@ -39,7 +68,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
     ```bash
    git clone https://github.com/ppaczek04/Machine_Learning_projects.git
-   cd Breast_Cancer_Classification_with_SVM_models
+   cd Data_Classification_And_Regression_In_Keras_Tensorflow
     ```
 
 2. Install dependencies:
@@ -49,34 +78,40 @@ To run this project locally, follow these steps:
 
 3. Run Jupyter Notebook:
     ```
-    jupyter notebook breast_cancer_classification_with_SVM_models.ipynb
+    jupyter notebook data_classification_and_regression_in_Keras_Tensorflow.ipynb
     ```
 
-## 📊 Results  
+## 📊 Results Overview
 
-### ✅ Breast Cancer Classification:
-This measurements are just illustrative results and might differ slightly:
-- Without feature scaling:  
-  - Training Accuracy: ~62%  
-  - Testing Accuracy: ~68%
-- With feature scaling:  
-  - Training Accuracy: ~90%  
-  - Testing Accuracy: ~90%
-- ➤ **Conclusion**: Feature scaling significantly improves model performance for SVM classifiers.
+### 🧥 Fashion MNIST Classification
 
-### 🌸 Iris Virginica Classification (Bonus):
-- Without feature scaling:  
-  - Training Accuracy: ~96%  
-  - Testing Accuracy: ~100%
-- With feature scaling:  
-  - Training Accuracy: ~95%  
-  - Testing Accuracy: ~95% 
-- ➤ Note: Scaling slightly reduced accuracy, likely due to features already being on similar scales.
+- Trained with 3 dense layers (300 → 100 → 10 softmax)
+- Training accuracy: ~90%
+- Validation accuracy: ~88–89%
+- ➤ **Conclusion:** The model generalizes well with minimal overfitting.
 
-### 📈 Polynomial Regression with SVR (Bonus):
-- `LinearSVR` with polynomial features achieved lower Mean Squared Error (MSE) than standard `SVR`.
-- After hyperparameter tuning using `GridSearchCV`, `SVR` model performance improved significantly.
+### 🏠 California Housing Regression
 
-## 💡 Why This Project  
-Breast cancer remains one of the most common and life-threatening forms of cancer among women worldwide. Early and accurate detection significantly improves the chances of effective treatment and survival. This project demonstrates how **machine learning** — specifically **Support Vector Machines (SVM)** — can be applied to real-world medical data to aid in **automatic classification of tumors as malignant or benign**.  
-By leveraging SVM models, we can support doctors and radiologists in making more informed decisions and reduce diagnostic errors.  
+| Architecture     | Epochs (Early Stopping) | Final Validation RMSE |
+|------------------|--------------------------|------------------------|
+| 100 → 50 → 20     | ~12                      | ~0.555                 |
+| 20 → 50 → 100     | ~19                      | ~0.559                 |
+| 50 → 50 → 50      | ~15                      | ~0.554                 |
+
+- ➤ **Conclusion:** All architectures performed similarly in terms of RMSE,  
+  but the 100/50/20 model converged the fastest and showed more stable learning curves.  
+  Balanced structures like 50/50/50 also proved reliable and efficient.
+
+
+## 💡 Why This Project
+
+This project is designed to provide practical, hands-on experience with deep learning using the **Keras API** within **TensorFlow**.  
+It serves as a foundation for understanding how to build and tune neural networks for both **classification** and **regression** tasks.
+
+Key learning goals:
+- Understand the structure and training of **Sequential models**
+- Apply **data normalization**, **callbacks**, and **TensorBoard**
+- Explore how **model architecture** affects training performance
+- Learn how to **evaluate and compare** models using validation metrics
+
+By working with real datasets like **Fashion MNIST** and **California Housing**, this project simulates common machine learning workflows used in image analysis and predictive modeling.

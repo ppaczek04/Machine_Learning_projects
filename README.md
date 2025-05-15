@@ -26,3 +26,11 @@ This project explores unsupervised learning by applying **K-Means** and **DBSCAN
 ## 7. Data Dimensionality Reduction with PCA
 This project demonstrates how to reduce the dimensionality of datasets using **Principal Component Analysis (PCA)**.  
 We apply PCA to the **breast cancer** and **iris** datasets from scikit-learn, aiming to preserve at least **90% of the original data variance** while minimizing the number of features.
+
+## 8. Image Classification & Regression with Neural Networks in Keras
+This project demonstrates how to apply **neural networks using Keras and TensorFlow** to two key machine learning tasks:
+
+1. **Image Classification** – using the Fashion MNIST dataset.
+2. **Regression** – predicting California housing prices based on multiple input features.
+
+The models are trained and evaluated using the `Sequential` API in Keras, and their performance is visualized using **TensorBoard**. We also explore how different model architectures impact training outcomes.
