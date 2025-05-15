@@ -29,7 +29,6 @@ We apply PCA to the **breast cancer** and **iris** datasets from scikit-learn, a
 
 ## 8. Image Classification & Regression with Neural Networks in Keras
 This project demonstrates how to apply **neural networks using Keras and TensorFlow** to two key machine learning tasks:
-
 1. **Image Classification** – using the Fashion MNIST dataset.
 2. **Regression** – predicting California housing prices based on multiple input features.
 
