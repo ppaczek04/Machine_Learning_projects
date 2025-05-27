@@ -33,3 +33,7 @@ This project demonstrates how to apply **neural networks using Keras and TensorF
 2. **Regression** – predicting California housing prices based on multiple input features.
 
 The models are trained and evaluated using the `Sequential` API in Keras, and their performance is visualized using **TensorBoard**. We also explore how different model architectures impact training outcomes.
+
+
+## 9. Neural Network Hyperparameter Tuning
+This project demonstrates the process of **hyperparameter tuning** for a neural network model applied to the **California Housing** dataset. It explores how different hyperparameters affect model training and prediction accuracy. Two popular approaches are used: **RandomizedSearchCV** from scikit-learn with a Keras wrapper, and **Keras Tuner** for automated hyperparameter optimization.
