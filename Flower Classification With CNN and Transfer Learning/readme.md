@@ -30,8 +30,8 @@ Both models are trained and evaluated on the `tf_flowers` dataset using a standa
   - Accuracy scores stored using `pickle` for later use.
 
 ## 📂 **Project Structure**
-- convolutional_neural_network_image_classification_and_tuning  -->  Jupyter Notebook with code & analysis 
-- convolutional_neural_network_image_classification_and_tuning     -->  Python file with code & analysis   
+- flower_classification_with_CNN_and_transfer_learning.ipynb  -->  Jupyter Notebook with code & analysis 
+- flower_classification_with_CNN_and_transfer_learning.py   -->  Python file with code & analysis   
 - readme.md                            -->  Project description  
 - requirements.txt                     -->  Dependencies (if applicable)
 
@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
     ```bash
    git clone https://github.com/ppaczek04/Machine_Learning_projects.git
-   cd Convolutional Neural Network Image Classification And Tuning
+   cd Flower Classification With CNN and Transfer Learning
     ```
 
 2. Install dependencies:
@@ -52,7 +52,7 @@ To run this project locally, follow these steps:
 
 3. Run Jupyter Notebook:
     ```
-    jupyter notebook convolutional_neural_network_image_classification_and_tuning.ipynb
+    jupyter notebook flower_classification_with_CNN_and_transfer_learning.ipynb
     ```
 
 ## 📒 **Why This Project?**
