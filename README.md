@@ -38,5 +38,5 @@ The models are trained and evaluated using the `Sequential` API in Keras, and th
 ## 9. Neural Network Hyperparameter Tuning
 This project demonstrates the process of **hyperparameter tuning** for a neural network model applied to the **California Housing** dataset. It explores how different hyperparameters affect model training and prediction accuracy. Two popular approaches are used: **RandomizedSearchCV** from scikit-learn with a Keras wrapper, and **Keras Tuner** for automated hyperparameter optimization.
 
-# 10. Flower Classification with CNN and Transfer Learning
+## 10. Flower Classification with CNN and Transfer Learning
 This project demonstrates the use of **Convolutional Neural Networks (CNNs)** for image classification, applied to the `tf_flowers` dataset. Two approaches are compared: a custom CNN trained from scratch and a model based on **transfer learning using the Xception architecture**. The project is implemented using **TensorFlow/Keras** and includes data preprocessing, training, evaluation, and result visualization.
