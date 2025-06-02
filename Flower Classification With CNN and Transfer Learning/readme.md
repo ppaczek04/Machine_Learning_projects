@@ -70,6 +70,6 @@ To run this project locally, follow these steps:
 ➤ Fast convergence and high performance thanks to pretrained feature extraction. Some mild overfitting remains but generalization improved significantly.
 
 ## 📒 Why This Project  
-This project highlights how deep learning and transfer learning techniques can be applied to **image classification tasks**, even with relatively limited data.  
-It compares the performance of a custom CNN versus a powerful pretrained model, showing the effectiveness of reusing learned visual features.  
+This project highlights how deep learning and transfer learning techniques can be applied to **image classification tasks**, even with relatively limited data.
+It compares the performance of a custom CNN versus a powerful pretrained model, showing the effectiveness of reusing learned visual features.
 The approach used here can be extended to other domains where image classification is needed, such as medical imaging, agriculture, or manufacturing.
