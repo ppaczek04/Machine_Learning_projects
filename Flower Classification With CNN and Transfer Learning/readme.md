@@ -55,5 +55,21 @@ To run this project locally, follow these steps:
     jupyter notebook flower_classification_with_CNN_and_transfer_learning.ipynb
     ```
 
-## 📒 **Why This Project?**
-This project provides an opportunity to apply regression analysis to data that simulates real-world scenarios, where noise and uncertainty are common. By generating data from a polynomial function with added noise, this project mirrors the challenges encountered when fitting models to imperfect, noisy data. Understanding how well a model can fit such data is crucial in various fields, including machine learning, data science, and engineering. This project helps in building a deeper understanding of the impact of noise on model accuracy and the importance of selecting and evaluating appropriate regression techniques.
+## 📊 Results  
+
+### ✅ Custom CNN:
+- Training Accuracy: ~96.8%  
+- Validation Accuracy: ~65.1%  
+- Test Accuracy: ~70.8%  
+➤ Simple architecture, trained from scratch. Signs of overfitting are visible.
+
+### ⚡ Transfer Learning (Xception):
+- Training Accuracy: ~98%  
+- Validation Accuracy: ~88%  
+- Test Accuracy: ~86%  
+➤ Fast convergence and high performance thanks to pretrained feature extraction. Some mild overfitting remains but generalization improved significantly.
+
+## 📒 Why This Project  
+This project highlights how deep learning and transfer learning techniques can be applied to **image classification tasks**, even with relatively limited data.  
+It compares the performance of a custom CNN versus a powerful pretrained model, showing the effectiveness of reusing learned visual features.  
+The approach used here can be extended to other domains where image classification is needed, such as medical imaging, agriculture, or manufacturing.
